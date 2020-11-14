@@ -1,0 +1,7 @@
+.results {
+    margin-block-start: 100px;
+}
+
+.results__provider::before {
+    content: url('../img/person4.png');
+}
