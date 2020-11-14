@@ -65,3 +65,19 @@ a {
   background-color: skyblue;
   transform: translateX(0);
   border-radius: 5px; }
+
+.fast_web__heading {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-inline-start: 22px;
+  margin-inline-end: 47px;
+  margin-block-start: 32px; }
+
+.fast_web__header {
+  margin-block-start: 0; }
+
+.fast_web__category {
+  color: #2d9cdb; }
+
+.fast_web__image {
+  border-radius: 18px; }
