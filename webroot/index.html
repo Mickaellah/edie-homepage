@@ -239,50 +239,58 @@
         </section>
     </main>
 
-    <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="/">Home</a>
+    <footer class="footer">
+        <nav class="footer__navigation">
+            <ul class="footer__navigation_container">
+                <li class="footer__list_item">
+                    <a class="footer__link" href="/">Home</a>
                 </li>
-                <li>
-                    <a href="/services">Services</a>
+                <li class="footer__list_item">
+                    <a class="footer__link" href="/services">Services</a>
                 </li>
-                <li>
-                    <a href="/our-works">Our works</a>
+                <li class="footer__list_item">
+                    <a class="footer__link" href="/our-works">Our works</a>
                 </li>
-                <li>
-                    <a href="/clients">Clients</a>
+                <li class="footer__list_item">
+                    <a class="footer__link" href="/clients">Clients</a>
                 </li>
-                <li>
-                    <a href="/contact">Contact</a>
+                <li class="footer__list_item">
+                    <a class="footer__link" href="/contact">Contact</a>
                 </li>
             </ul>
         </nav>
 
-        <div>
-            <p>Edie</p>
-            <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="/instagram">Instagram</a>
+        <div class="footer__social_media">
+            <p class="footer__logo">
+                Edie
+            </p>
+            <div class="footer__social_media--container">
+                <nav class="footer__social_media--navigation">
+                    <ul class="footer__social_media--navigation_container">
+                        <li class="footer__social_media--list_item">
+                            <a class="footer__social_media--link footer__social_media--link_instagram" href="/instagram">
+                                <img class="footer__social_media--icons footer__social_media--icons_instagram" src="./svg/instagram.svg" alt="Instagram">
+                            </a>
                         </li>
-                        <li>
-                            <a href="/linkedin">Linkedin</a>
+                        <li class="footer__social_media--list_item">
+                            <a class="footer__social_media--link footer__social_media--link_linkedin" href="/linkedin">
+                                <img class="footer__social_media--icons footer__social_media--icons_linkedin" src="./svg/linkedin.svg" alt="Linkedin">
+                            </a>
                         </li>
-                        <li>
-                            <a href="/twitter">Twitter</a>
+                        <li class="footer__social_media--list_item">
+                            <a class="footer__social_media--link footer__social_media--link_twitter" href="/twitter">
+                                <img class="footer__social_media--icons footer__social_media--icons_twitter" src="./svg/twitter.svg" alt="Twitter">
+                            </a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
 
-        <form>
-            <label for="join">Want us to contact you?</label>
-            <input type="text" id="join" placeholder="Email" />
-            <input type="submit" id="join" placeholder="Submit" />
+        <form class="footer__subscribe_form">
+            <label class="footer__subscribe_form--label" for="join">Want us to contact you?</label>
+            <input class="footer__subscribe_form--input_text" type="text" id="join" placeholder="Email" />
+            <input class="footer__subscribe_form--input_submit" type="submit" id="join" placeholder="Submit" />
         </form>
     </footer>
 

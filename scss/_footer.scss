@@ -1,0 +1,41 @@
+.footer {
+    padding: 0;
+    padding: 43px;
+    background-color: #100e1d;
+    color: white;
+}
+
+.footer__navigation_container {
+    margin-block-end: 64px;
+}
+
+.footer__list_item {
+    margin-block-start: 16px;
+}
+
+.footer__link {
+    color: white;
+}
+
+.footer__logo {
+    font-size: 36px;
+    margin-block-end: 0;
+}
+
+.footer__social_media--navigation_container {
+    display: flex;
+}
+
+.footer__social_media--icons {
+    width: 24px;
+    height: 24px;
+}
+
+.footer__social_media--icons_linkedin,
+.footer__social_media--icons_twitter {
+    margin-inline-start: 12px;
+}
+
+.footer__subscribe_form {
+    margin-block-start: 64px;
+}
