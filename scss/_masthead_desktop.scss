@@ -8,10 +8,11 @@
     }
 
     .masthead__navigation_container {
+        width: max-content;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-inline-start: 80vw;
+        margin-inline-start: 75vw;
     }
 
     .masthead__list_item {
