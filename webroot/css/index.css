@@ -76,6 +76,11 @@ ul {
 a {
   text-decoration: none; }
 
+body {
+  max-width: 1114px;
+  margin-inline-start: auto;
+  margin-inline-end: auto; }
+
 .masthead {
   display: flex;
   flex-direction: row;
