@@ -462,6 +462,17 @@ h3 {
 .person__content {
   font-size: 16px; }
 
+@media (min-width: 768px) {
+  .person {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 80px;
+    column-gap: 80px; }
+  .person__container {
+    grid-column: 1 / 2; }
+  .person__image {
+    grid-column: 2 / 4; } }
+
 .results {
   margin-block-start: 100px;
   margin-block-end: 100px; }
