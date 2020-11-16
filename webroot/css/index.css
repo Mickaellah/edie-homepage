@@ -81,7 +81,7 @@ a {
 .person,
 .results,
 .footer {
-  max-width: 1140px;
+  max-width: 1100px;
   margin-inline-start: auto;
   margin-inline-end: auto; }
 
@@ -389,6 +389,31 @@ h3 {
   width: 32px;
   height: 24px;
   margin-inline-start: 16px; }
+
+@media (min-width: 1140px) {
+  .business {
+    margin-block-start: 180px; }
+  .business__navigation_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    column-gap: 10px;
+    grid-row-gap: 80px;
+    row-gap: 80px; }
+  .business__image {
+    max-width: 500px;
+    max-height: 550px;
+    border-radius: 24px; }
+  .business__image--smarthome {
+    margin-block-start: 188px; }
+  .business__image--booking {
+    margin-block-start: 50px; }
+  .business__image--juice {
+    margin-block-start: -80px; }
+  .business__more_content {
+    margin-block-start: -150px;
+    float: inline-end; } }
 
 .person {
   margin-block-start: 64px; }
