@@ -1,5 +1,6 @@
 .results {
     margin-block-start: 100px;
+    margin-block-end: 100px;
 }
 
 .results__content {
@@ -9,6 +10,7 @@
 
 .results__producer--picture {
     width: 80px;
+    height: 100%;
     border-radius: 12px;
 }
 

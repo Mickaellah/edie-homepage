@@ -264,7 +264,8 @@ h3 {
   border-radius: 24px; }
 
 .results {
-  margin-block-start: 100px; }
+  margin-block-start: 100px;
+  margin-block-end: 100px; }
 
 .results__content {
   display: flex;
@@ -272,6 +273,7 @@ h3 {
 
 .results__producer--picture {
   width: 80px;
+  height: 100%;
   border-radius: 12px; }
 
 .results__provider {
