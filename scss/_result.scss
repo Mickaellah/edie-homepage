@@ -2,6 +2,25 @@
     margin-block-start: 100px;
 }
 
-.results__provider::before {
-    content: url('../img/person4.png');
+.results__content {
+    display: flex;
+    margin-block-start: 32px;
+}
+
+.results__producer--picture {
+    width: 80px;
+    border-radius: 12px;
+}
+
+.results__provider {
+    margin-inline-start: 32px;
+}
+
+.results__provider--name {
+    font-size: 24px;
+    margin-block-start: 0;
+}
+
+.results__framework_used {
+    color: #828282;
 }
