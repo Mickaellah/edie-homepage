@@ -534,3 +534,13 @@ h3 {
 
 .footer__subscribe_form--label {
   font-size: 10px; }
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .footer > * {
+    max-width: 1000px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; } }
