@@ -4,12 +4,21 @@
     margin-block-end: 48px;
 }
 
+.purpose__information {
+    font-size: 12px;
+}
+
 .purpose__submit_form {
     margin-block-start: 32px;
 }
 
+.purpose__submit_form__label {
+    font-size: 10px;
+}
+
 input[type="text"] {
-    padding-right: 60px;
+    font-family: 'Poppins_medium';
+    padding-right: 70px;
     padding-block-start: 12px;
     padding-block-end: 12px;
     border-radius: 12px;
@@ -21,7 +30,8 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    margin-left: -85px;
+    font-family: 'Poppins_medium';
+    margin-left: -90px;
     background-color: #2d9cdb;
     color: white;
     border: 0;

@@ -1,3 +1,5 @@
+@import 'fonts';
+
 .demand {
     margin-block-start: 64px;
 }
@@ -43,7 +45,7 @@
 }
 
 h3 {
-    font-weight: 700;
+    font-family: 'Poppins_bold';
     font-size: 24px;
 }
 
@@ -82,4 +84,10 @@ h3 {
     color: #828282;
     margin-block-start: 30px;
     margin-block-end: 48px;
+}
+
+.demand__article_design__bttn,
+.demand__article_front_end__bttn,
+.demand__article_back_end__bttn {
+    font-family: 'Poppins_medium';
 }

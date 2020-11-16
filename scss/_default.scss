@@ -1,10 +1,27 @@
+@import 'fonts';
+
 body {
     margin: 0;
+    font-family: 'Poppins_regular';
     font-size: 18px;
 }
 
 body > *:not(footer) {
     padding: 16px;
+}
+
+h1,
+.footer__logo {
+    font-family: 'Heebo';
+}
+
+h2 {
+    font-family: 'Poppins_medium';
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Poppins_bold';
 }
 
 img {

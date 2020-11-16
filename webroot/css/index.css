@@ -1,9 +1,69 @@
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/Heebo-ExtraBold.woff") format("woff"), url("../fonts/Heebo-ExtraBold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Poppins_light';
+  src: url("../fonts/Poppins-Light.woff") format("woff"), url("../fonts/Poppins-Light.woff2") format("woff2");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'Poppins_regular';
+  src: url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Poppins_medium';
+  src: url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Poppins_bold';
+  src: url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/Heebo-ExtraBold.woff") format("woff"), url("../fonts/Heebo-ExtraBold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Poppins_light';
+  src: url("../fonts/Poppins-Light.woff") format("woff"), url("../fonts/Poppins-Light.woff2") format("woff2");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'Poppins_regular';
+  src: url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Poppins_medium';
+  src: url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Poppins_bold';
+  src: url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700; }
+
 body {
   margin: 0;
+  font-family: 'Poppins_regular';
   font-size: 18px; }
 
 body > *:not(footer) {
   padding: 16px; }
+
+h1,
+.footer__logo {
+  font-family: 'Heebo'; }
+
+h2 {
+  font-family: 'Poppins_medium';
+  font-size: 24px; }
+
+h3 {
+  font-family: 'Poppins_bold'; }
 
 img {
   width: 100%;
@@ -23,7 +83,6 @@ a {
 
 .masthead__header {
   margin: 0;
-  text-transform: uppercase;
   color: black;
   font-size: 24px; }
 
@@ -81,7 +140,8 @@ a {
   margin-block-start: 0; }
 
 .fast_web__category {
-  color: #2d9cdb; }
+  color: #2d9cdb;
+  font-size: 12px; }
 
 .fast_web__image {
   border-radius: 18px; }
@@ -91,11 +151,18 @@ a {
   margin-inline-end: 28px;
   margin-block-end: 48px; }
 
+.purpose__information {
+  font-size: 12px; }
+
 .purpose__submit_form {
   margin-block-start: 32px; }
 
+.purpose__submit_form__label {
+  font-size: 10px; }
+
 input[type="text"] {
-  padding-right: 60px;
+  font-family: 'Poppins_medium';
+  padding-right: 70px;
   padding-block-start: 12px;
   padding-block-end: 12px;
   border-radius: 12px;
@@ -106,7 +173,8 @@ input[type="text"] {
   margin-block-start: 8px; }
 
 input[type="submit"] {
-  margin-left: -85px;
+  font-family: 'Poppins_medium';
+  margin-left: -90px;
   background-color: #2d9cdb;
   color: white;
   border: 0;
@@ -117,6 +185,30 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   transform: scale(1.1); }
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/Heebo-ExtraBold.woff") format("woff"), url("../fonts/Heebo-ExtraBold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Poppins_light';
+  src: url("../fonts/Poppins-Light.woff") format("woff"), url("../fonts/Poppins-Light.woff2") format("woff2");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'Poppins_regular';
+  src: url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Poppins_medium';
+  src: url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Poppins_bold';
+  src: url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700; }
 
 .demand {
   margin-block-start: 64px; }
@@ -154,7 +246,7 @@ input[type="submit"]:hover {
   margin-inline-end: 0; }
 
 h3 {
-  font-weight: 700;
+  font-family: 'Poppins_bold';
   font-size: 24px; }
 
 .demand__article--design,
@@ -190,8 +282,37 @@ h3 {
   margin-block-start: 30px;
   margin-block-end: 48px; }
 
+.demand__article_design__bttn,
+.demand__article_front_end__bttn,
+.demand__article_back_end__bttn {
+  font-family: 'Poppins_medium'; }
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/Heebo-ExtraBold.woff") format("woff"), url("../fonts/Heebo-ExtraBold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Poppins_light';
+  src: url("../fonts/Poppins-Light.woff") format("woff"), url("../fonts/Poppins-Light.woff2") format("woff2");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'Poppins_regular';
+  src: url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Poppins_medium';
+  src: url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Poppins_bold';
+  src: url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700; }
+
 .business {
-  margin-block-start: 64px; }
+  margin-block-start: 100px; }
 
 .business__header {
   margin-inline-start: 29px;
@@ -203,12 +324,13 @@ h3 {
   margin-block-end: 8px; }
 
 .business__link {
+  font-family: 'Poppins_light';
   font-size: 12px;
   color: #828282; }
 
 .business__description {
-  font-size: 18px;
-  font-weight: 500; }
+  font-family: 'Poppins_medium';
+  margin-block-start: 0; }
 
 .business__more_content {
   display: flex;
@@ -266,6 +388,9 @@ h3 {
 .person__third_person {
   border-radius: 24px; }
 
+.person__content {
+  font-size: 16px; }
+
 .results {
   margin-block-start: 100px;
   margin-block-end: 100px; }
@@ -321,3 +446,6 @@ h3 {
 
 .footer__subscribe_form {
   margin-block-start: 64px; }
+
+.footer__subscribe_form--label {
+  font-size: 10px; }
