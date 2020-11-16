@@ -1,6 +1,11 @@
 @media (min-width: 768px) {
     .purpose {
         margin-inline-start: 187px;
-        max-width: 300px;
+        max-width: 400px;
+    }
+
+    .purpose__submit_form {
+        display: flex;
+        flex-direction: column;
     }
 }

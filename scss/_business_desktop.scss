@@ -3,6 +3,10 @@
         margin-block-start: 180px;
     }
 
+    .business__header {
+        max-width: 450px;
+    }
+
     .business__navigation_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

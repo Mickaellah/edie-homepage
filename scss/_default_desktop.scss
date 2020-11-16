@@ -1,8 +1,20 @@
-.demand,
-.business,
-.person,
-.results {
-    max-width: 1000px;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+@media (min-width: 768px) {
+    .demand,
+    .business,
+    .person,
+    .results {
+        max-width: 1000px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
+    .fast_web__header,
+    .purpose__header {
+        font-size: 48px;
+    }
+
+
+    h2 {
+        font-size: 36px;
+    }
 }
