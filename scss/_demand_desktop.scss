@@ -1,0 +1,18 @@
+@media (min-width: 768px) {
+    .demand__header {
+        margin-block-end: 0;
+    }
+
+    .demand__article_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 74px;
+        column-gap: 74px;
+        margin-block-start: 0;
+    }
+
+    .demand__article--design,
+    .demand__article--back_end {
+        margin-block-start: 110px;
+    }
+}
