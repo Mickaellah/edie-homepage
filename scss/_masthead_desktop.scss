@@ -1,6 +1,8 @@
+@import 'variables';
+
 @media (min-width: 768px) {
     .masthead {
-        padding: 32px;
+        padding: $margin;
     }
 
     .masthead__label_menu::before {
@@ -16,6 +18,6 @@
     }
 
     .masthead__list_item {
-        margin-inline-start: 32px;
+        margin-inline-start: $margin;
     }
 }

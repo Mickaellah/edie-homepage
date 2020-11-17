@@ -1,3 +1,5 @@
+@import 'variables';
+
 @media (min-width: 768px) {
     .demand,
     .business,
@@ -15,6 +17,6 @@
 
 
     h2 {
-        font-size: 36px;
+        font-size: $header_font_size_desktop;
     }
 }

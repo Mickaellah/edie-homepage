@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
     .fast_web {
-        padding: 32px;
+        padding: $margin;
     }
 
     .fast_web__heading {
@@ -9,7 +9,7 @@
     }
 
     .fast_web__category {
-        font-size: 18px;
+        font-size: $base_font_size;
     }
 
 }

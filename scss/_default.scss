@@ -1,13 +1,14 @@
 @import 'fonts';
+@import 'variables';
 
 body {
     margin: 0;
     font-family: 'Poppins_regular';
-    font-size: 18px;
+    font-size: $base_font_size;
 }
 
 body > *:not(footer) {
-    padding: 16px;
+    padding: $base_padding;
 }
 
 h1,
@@ -17,7 +18,7 @@ h1,
 
 h2 {
     font-family: 'Poppins_medium';
-    font-size: 24px;
+    font-size: $header_font_size;
 }
 
 h3 {
