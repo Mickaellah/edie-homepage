@@ -426,7 +426,9 @@ h3 {
     margin-block-start: -80px; }
   .business__more_content {
     margin-block-start: -150px;
-    float: inline-end; } }
+    float: inline-end; }
+  .business__link {
+    font-size: 14px; } }
 
 .person {
   margin-block-start: 64px; }
