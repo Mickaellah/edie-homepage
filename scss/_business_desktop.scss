@@ -1,4 +1,4 @@
-@media (min-width: 1140px) {
+@media (min-width: 768px) {
     .business {
         margin-block-start: 180px;
     }
@@ -18,9 +18,8 @@
     }
 
     .business__image {
-        max-width: 500px;
-        max-height: 550px;
         border-radius: 24px;
+        height: 70%;
     }
 
     .business__image--smarthome {

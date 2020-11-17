@@ -402,7 +402,7 @@ h3 {
   height: 24px;
   margin-inline-start: 16px; }
 
-@media (min-width: 1140px) {
+@media (min-width: 768px) {
   .business {
     margin-block-start: 180px; }
   .business__header {
@@ -416,9 +416,8 @@ h3 {
     grid-row-gap: 80px;
     row-gap: 80px; }
   .business__image {
-    max-width: 500px;
-    max-height: 550px;
-    border-radius: 24px; }
+    border-radius: 24px;
+    height: 70%; }
   .business__image--smarthome {
     margin-block-start: 188px; }
   .business__image--booking {
