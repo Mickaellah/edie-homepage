@@ -179,7 +179,9 @@ a {
     padding: 32px; }
   .fast_web__heading {
     max-width: 600px;
-    margin-inline-start: 155px; } }
+    margin-inline-start: 155px; }
+  .fast_web__category {
+    font-size: 18px; } }
 
 .purpose {
   margin-inline-start: 24px;
